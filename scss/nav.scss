@@ -1,0 +1,138 @@
+.white_nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+
+  nav {
+    width: 980px;
+    display: flex;
+    align-items: center;
+    // justify-content: space-around;
+    // border-bottom: white solid 2px;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    // background-color: green;
+
+    .logo {
+      width: 92px;
+      height: 42px;
+      padding-right: 600px;
+      background-image: url(../images/logo/logo-white.svg);
+      background-repeat: no-repeat;
+
+      // background-color: aqua;
+    }
+
+    .links {
+      width: 400px;
+      height: 42px;
+      // align-self: center;
+      display: flex;
+      justify-content: space-between;
+      text-align: right;
+      overflow: hidden;
+      // background-color: aqua;
+
+      div {
+        &.pipe {
+          height: 60%;
+          width: 2px;
+          background-color: $red;
+          transform: rotate(45deg);
+        }
+
+        a {
+          font-family: gill;
+          font-size: 15px;
+          text-decoration: none;
+          // margin: auto;
+          color: white;
+          text-transform: lowercase;
+        }
+      }
+    }
+
+    span {
+      width: 100%;
+      position: absolute;
+      border-bottom: 4px white solid;
+      left: 0px;
+      bottom: 0px;
+      margin-bottom: 50px;
+    }
+  }
+}
+.black_nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+
+  nav {
+    width: 980px;
+    display: flex;
+    align-items: center;
+    // justify-content: space-around;
+    // border-bottom: white solid 2px;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    // background-color: green;
+
+    .logo {
+      width: 92px;
+      height: 42px;
+      padding-right: 600px;
+      background-image: url(../images/logo/logo-black.svg);
+      background-repeat: no-repeat;
+
+      // background-color: aqua;
+    }
+
+    .links {
+      width: 400px;
+      height: 42px;
+      // align-self: center;
+      display: flex;
+      justify-content: space-between;
+      text-align: right;
+      overflow: hidden;
+      // background-color: aqua;
+
+      div {
+        &.pipe {
+          height: 60%;
+          width: 2px;
+          background-color: $red;
+          transform: rotate(45deg);
+        }
+
+        a {
+          font-family: gill;
+          font-size: 15px;
+          text-decoration: none;
+          // margin: auto;
+          color: black;
+          text-transform: lowercase;
+        }
+      }
+    }
+
+    span {
+      width: 100%;
+      position: absolute;
+      border-bottom: 4px black solid;
+      left: 0px;
+      bottom: 0px;
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,413 @@
+.gallery {
+  max-width: 980px;
+  height: 800px;
+  margin: 0 auto;
+
+  .galwords {
+    width: 100%;
+    align-items: center;
+    padding-bottom: 50px;
+
+    // background-color: aqua;
+
+    h1 {
+      font-family: gill;
+      color: black;
+      font-size: 25px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: 20px;
+
+      span {
+        width: 392px;
+        position: absolute;
+        border-bottom: 4px black solid;
+        left: 590px;
+        bottom: 0px;
+        margin-bottom: 980px;
+      }
+    }
+  }
+
+  .galleryimages1 {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+    .galleryimg1 {
+      width: 489px;
+      height: 187px;
+      background-image: linear-gradient(
+          to right,
+          $overlay-yellow,
+          $overlay-yellow
+        ),
+        url(../images/gallery/1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .galleryimg2 {
+      width: 187px;
+      height: 187px;
+      background-image: linear-gradient(to right, $overlay-red, $overlay-red),
+        url(../images/gallery/2.jpeg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .galleryimg3 {
+      width: 265px;
+      height: 187px;
+      background-image: linear-gradient(
+          to right,
+          $overlay-green,
+          $overlay-green
+        ),
+        url(../images/gallery/3.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .galleryimages2 {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .galleryimg4 {
+      width: 603px;
+      height: 306px;
+      background-image: linear-gradient(
+          to right,
+          $overlay-purple,
+          $overlay-purple
+        ),
+        url(../images/gallery/4.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .galleryimg5 {
+      width: 355px;
+      height: 306px;
+      background-image: linear-gradient(to right, $overlay-blue, $overlay-blue),
+        url(../images/gallery/5.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+
+.gallery1 {
+  max-width: 980px;
+  height: 800px;
+  margin: 0 auto;
+
+  .gal1 {
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        $overlay-yellow,
+        $overlay-yellow
+      ),
+      url(../images/gallery/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .galheader1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: $yellow;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.281);
+
+    h1 {
+      font-family: gill;
+      font-size: 300px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -275px;
+    }
+
+    h2 {
+      font-family: gill;
+      font-size: 140px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -165px;
+    }
+  }
+
+  .galwords1 {
+    font-family: gill;
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding-top: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+
+    p {
+      font-weight: lighter;
+      width: 490px;
+      padding-right: 20px;
+    }
+  }
+}
+
+.gallery2 {
+  max-width: 980px;
+  height: 800px;
+  margin: 0 auto;
+
+  .gal2 {
+    height: 400px;
+    background-image: linear-gradient(to right, $overlay-red, $overlay-red),
+      url(../images/gallery/2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .galheader2 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: $red;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.281);
+
+    h1 {
+      font-family: gill;
+      font-size: 300px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -275px;
+    }
+
+    h2 {
+      font-family: gill;
+      font-size: 140px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -165px;
+    }
+  }
+
+  .galwords2 {
+    font-family: gill;
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding-top: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+
+    p {
+      font-weight: lighter;
+      width: 490px;
+      padding-right: 20px;
+    }
+  }
+}
+.gallery3 {
+  max-width: 980px;
+  height: 800px;
+  margin: 0 auto;
+
+  .gal3 {
+    height: 400px;
+    background-image: linear-gradient(to right, $overlay-green, $overlay-green),
+      url(../images/gallery/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .galheader3 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: $green;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.281);
+
+    h1 {
+      font-family: gill;
+      font-size: 300px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -275px;
+    }
+
+    h2 {
+      font-family: gill;
+      font-size: 140px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -165px;
+    }
+  }
+
+  .galwords3 {
+    font-family: gill;
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding-top: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+
+    p {
+      font-weight: lighter;
+      width: 490px;
+      padding-right: 20px;
+    }
+  }
+}
+
+.gallery4 {
+  max-width: 980px;
+  height: 800px;
+  margin: 0 auto;
+
+  .gal4 {
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        $overlay-purple,
+        $overlay-purple
+      ),
+      url(../images/gallery/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .galheader4 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: $purple;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.281);
+
+    h1 {
+      font-family: gill;
+      font-size: 300px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -275px;
+    }
+
+    h2 {
+      font-family: gill;
+      font-size: 115px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -165px;
+    }
+  }
+
+  .galwords4 {
+    font-family: gill;
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding-top: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+
+    p {
+      font-weight: lighter;
+      width: 490px;
+      padding-right: 20px;
+    }
+  }
+}
+
+.gallery5 {
+  max-width: 980px;
+  height: 800px;
+  margin: 0 auto;
+
+  .gal5 {
+    height: 400px;
+    background-image: linear-gradient(to right, $overlay-blue, $overlay-blue),
+      url(../images/gallery/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .galheader5 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: $blue;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.281);
+
+    h1 {
+      font-family: gill;
+      font-size: 300px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -275px;
+    }
+
+    h2 {
+      font-family: gill;
+      font-size: 115px;
+      text-align: left;
+      font-weight: lighter;
+      letter-spacing: 4px;
+      margin-top: -165px;
+    }
+  }
+
+  .galwords5 {
+    font-family: gill;
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding-top: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+
+    p {
+      font-weight: lighter;
+      width: 490px;
+      padding-right: 20px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.about {
+  max-width: 980px;
+  margin: 0 auto;
+
+  .about-image {
+    height: 378.75px;
+    margin: 0 auto;
+    //   margin 0 auto only works if you have a width set, centers section
+    background-image: linear-gradient(
+        to right,
+        $overlay-yellow,
+        $overlay-yellow
+      ),
+      url(../images/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .about-section {
+    width: 980px;
+    height: 320px;
+    max-width: 100%;
+
+    .history {
+      width: 100%;
+      align-items: center;
+      margin-top: -43px;
+
+      h1 {
+        font-family: gill;
+        color: black;
+        font-size: 25px;
+        text-align: left;
+        font-weight: lighter;
+        letter-spacing: 4px;
+        margin-top: 20px;
+
+        span {
+          width: 392px;
+          position: absolute;
+          border-bottom: 4px black solid;
+          left: 590px;
+          bottom: 0px;
+          margin-bottom: 650px;
+        }
+      }
+
+      .history2 {
+        font-family: gill;
+        color: black;
+        text-align: left;
+        font-weight: lighter;
+        font-style: italic;
+        letter-spacing: 1px;
+        padding-top: 50px;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

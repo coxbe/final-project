@@ -1,0 +1,191 @@
+.home {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  .hero {
+    height: 500px;
+    margin: 0 auto;
+    //   margin 0 auto only works if you have a width set, centers section
+    background-image: linear-gradient(
+        to right,
+        $overlay-yellow,
+        $overlay-yellow
+      ),
+      url(../images/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -150px;
+    z-index: 4;
+
+    .header {
+      width: 600px;
+      position: absolute;
+      right: 0px;
+      left: 0px;
+      top: 20px;
+      bottom: 0px;
+      margin: 0 auto;
+
+      h1 {
+        font-family: pt;
+        color: $white;
+        font-size: 40px;
+        margin-top: 100px;
+        text-align: center;
+      }
+
+      h2 {
+        font-family: gill;
+        color: $red;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      p {
+        font-family: pt;
+        color: $white;
+        font-size: 20px;
+        text-align: center;
+        font-weight: lighter;
+        font-style: italic;
+      }
+
+      .read-more {
+        width: 35%;
+        height: 40px;
+        margin: 0 auto;
+        font-family: gill;
+        font-size: 15px;
+        background-color: $red;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+      }
+    }
+  }
+
+  .quote {
+    max-width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    // align-items: center;
+
+    .q {
+      width: 1100px;
+      font-family: gill;
+      color: $yellow;
+      font-size: 15px;
+      text-align: left;
+      font-weight: lighter;
+      font-style: italic;
+      margin-left: 60px;
+    }
+
+    .name {
+      font-family: pt;
+      color: $red;
+      font-size: 15px;
+      text-align: left;
+      font-weight: lighter;
+      margin-left: 60px;
+    }
+
+    .name2 {
+      font-family: pt;
+      color: #a8a8a8;
+      font-size: 10px;
+      text-align: left;
+      font-weight: lighter;
+      margin-left: 60px;
+    }
+  }
+
+  .events {
+    width: 1280px;
+    height: 320px;
+    background-color: $purple;
+    max-width: 100%;
+
+    .events-top-section {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-left: 60px;
+
+      h1 {
+        font-family: gill;
+        color: $white;
+        font-size: 25px;
+        text-align: left;
+        font-weight: lighter;
+        letter-spacing: 4px;
+        margin-top: 20px;
+      }
+
+      span {
+        width: 392px;
+        position: absolute;
+        border-bottom: 4px white solid;
+        left: 500px;
+        bottom: 0px;
+        margin-bottom: 130px;
+        // background-color: aqua;
+      }
+    }
+
+    .events-bottom-section {
+      width: 1198px;
+      display: flex;
+      margin-left: 60px;
+
+      .post {
+        width: 224px;
+        max-width: 500px;
+        margin-top: 50px;
+        display: flex;
+        margin-right: 20px;
+
+        .date {
+          width: 60px;
+          height: 60px;
+          background-color: $red;
+          text-align: center;
+          font-family: gill;
+          font-size: 22px;
+          font-weight: bolder;
+          padding-top: 10px;
+          color: $white;
+
+          .month {
+            font-size: 12px;
+            font-weight: normal;
+          }
+        }
+
+        .blogwords {
+          max-width: 140px;
+          font-family: gill;
+          flex-wrap: wrap;
+          margin-left: 10px;
+
+          h1 {
+            font-size: 15px;
+            color: $white;
+          }
+          p {
+            font-size: 13px;
+            color: $red;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
